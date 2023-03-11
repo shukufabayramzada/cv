@@ -1,0 +1,261 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 300vh;
+}
+.cvbox{
+    border: 2px solid rgb(24, 24, 51);
+    display: flex;
+    flex-direction: row;
+    width: 780px;
+    height: 1030px;
+   font-family:'Times New Roman', Times, serif;
+}
+.font{
+    font-family: 'Golos Text', sans-serif;
+}
+.leftpart {
+    border: 2px solid rgb(24, 24, 51);
+    background-color:rgb(53, 53, 116);
+    width: 270px;
+    height: 1030px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.image {
+   width: 120px;
+   height: 120px;
+   border-radius: 100%;
+   justify-content: center;
+   padding: 10px 45px 10px 45px;
+   margin: 45px 30px 30px 30px;
+
+}
+.contact{
+    margin-top: 20px;
+    padding-left: 45px;
+    padding-right: 30px;
+    color: white;
+    font-size: 25px;
+}
+.phone,
+.email,
+.adress {
+    font-size: 12px;
+    color: white;
+    margin:0px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 13px;
+}
+.mine {
+    padding-top:4px;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+.line {
+    border: 0.5px solid white;
+    width: 30px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+    margin-left: 45px;
+}
+.Email,
+.Phone,
+.Adress{
+    font-size: 16px;
+}
+.rightbox-1{
+    display: flex;
+    flex-direction: column ;
+    margin: 30px;
+    padding: 10px;
+}
+.name{
+    font-size: 35px;
+    margin-top: 30px;
+}
+.surname {
+    font-size: 35px;
+}
+.job {
+    margin-top:6px;
+    font-size: 25px;
+}
+.Education {
+    margin-top: 70px;
+    padding-left: 45px;
+    padding-right: 30px;
+    color: white;
+    font-size: 25px;
+}
+.education {
+    font-size: 16px;
+    color: white;
+    margin:0px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 4px;
+}
+.Language {
+    margin-top: 100px;
+    padding-left: 45px;
+    padding-right: 30px;
+    color: white;
+    font-size: 25px;
+}
+.rightbox-1 {
+    margin: 35px;
+    padding: 10px;
+}
+.profile,
+.experience,
+.skills {
+   font-size: 25px;
+}
+.lorem-1{
+    padding-top: 10px;
+    font-size: 18px;
+}
+.lineright {
+    border: 0.5px solid rgb(14, 4, 41);
+    width: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;  
+}
+.rightbox-2,
+.rightbox-3{
+    display: flex;
+    flex-direction: row;
+}
+.jobposition-1{
+   margin: 5px 10px 10px 30px;
+}
+.jobposition {
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.jobyear{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.jobinfo{
+  margin-left: 30px ;
+  margin-top: 10px;
+}
+.jobplace,
+.jobplace-1 {
+  margin-top: 10px;
+}
+.december {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.yearplace,
+.yearplace-1,
+.languages{
+    display: flex;
+    flex-direction: column;
+}
+.infoposition{
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+.presentyear {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+.skillscircles{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+     margin-top: 8px;
+}
+.skillscircles-2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px; 
+    margin-top: 15px;
+}
+.circle-1,
+.circle-2,
+.circle-3 {
+      border: 2px solid darkblue;
+      width: 10px;
+      height: 10px;
+      border-radius: 100%;
+      background-color: darkblue;
+      margin: 3px;
+}
+.circle-4{
+      border: 2px solid rgb(158, 158, 180);
+      width: 10px;
+      height: 10px;
+      border-radius: 100%;
+      background-color: rgb(158, 158, 180);
+      margin: 3px;
+}
+.skills-1,
+.skills-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.skills-11,
+.skills-12,
+.skills-21,
+.skills-22{
+    display: flex;
+    flex-direction: row;
+}
+.firstproglang{
+    margin-top: 10px;
+}
+.secondproglang{
+    margin-top: 18px;
+}
+.firstlanguage,
+.secondlanguage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 45px;
+}
+.langcircles {
+    display: flex;
+    flex-direction: row;
+    margin-right: 45px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.english,
+.azerbaijani{
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.langcircle-1,
+.langcircle-2,
+.langcircle-3{
+      border: 2px solid rgb(255, 255, 255);
+      width: 10px;
+      height: 10px;
+      border-radius: 100%;
+      background-color: rgb(255, 255, 255);
+      margin: 3px;
+}
+.langcircle-4{
+    border: 2px solid dimgray;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: dimgray;
+    margin: 3px;
+}
+    
